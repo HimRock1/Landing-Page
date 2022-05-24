@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    line-height: 1.5;
+    color: #1f2937;
+    font-family: 'Inter', sans-serif;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    list-style-type: none;
+}
+.navbar .container .nav{
+    display: flex;
+    justify-content: end;
+}
+.navbar .container .nav{
+    flex:1;
+    gap: 20px;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(226, 104, 33);
+}
