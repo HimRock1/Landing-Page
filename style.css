@@ -8,6 +8,9 @@ body{
     color: #1f2937;
     font-family: 'Inter', sans-serif;
     height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .navbar .container{
     display: flex;
@@ -100,4 +103,78 @@ body{
 }
 .Content-1 .container .boxes p{
     text-align: center;
+}.Content-2 .container{
+    background-color: #E5E7EB;
+    font-family:  'Inter', sans-serif;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.Content-2 .container .quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;
+}
+.Content-2 .container .Sign{
+    font-weight: 700;
+    align-self: flex-end;
+    font-size: 24px;
+}
+.Content-3{
+    padding: 80px;
+}
+.Content-3 .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background-color: #3882f6;
+    border:none;
+    border-radius: 6px;
+    padding: 50px 80px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.Content-3 .container .text{
+    display: flex;
+    flex-direction: column;
+}
+.Content-3 .container .text .main{
+    font-weight: bold;
+    font-size: 20px;
+}
+.Content-3 .container .text .sec-text{
+    font-size: 18px;
+    font-weight: 100;
+}
+.Content-3 .container button{
+    color: #ffffff;
+    background-color: #3882f6;
+    border-color:#ffffff;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 30px;
+}
+.footer img{
+    width: 20px;
+    height: fit-content;
 }
