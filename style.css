@@ -12,10 +12,19 @@ body{
     justify-content: space-between;
     flex-direction: column;
 }
+.navbar .container, .header .container, .Content-1 text, .Content-1 .container,.Content-2 .container,.Content-3 .container{
+    padding: 0 auto;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.navbar{
+    background-color: #1f2937;
+    min-height: 60px;
+}
 .navbar .container{
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;
+    align-items: center;
 }
 .nav {
     list-style-type: none;
@@ -44,12 +53,15 @@ body{
     color: #f9faf8;
     font-weight: bolder;
 }
-.header .container{
+.header{
     background-color: #1f2937;
     color: white;
+}
+.header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 6px 50px 6px;
 }
 .header .container img{
     width: 400px;
@@ -103,10 +115,13 @@ body{
 }
 .Content-1 .container .boxes p{
     text-align: center;
-}.Content-2 .container{
+}.Content-2{
     background-color: #E5E7EB;
-    font-family:  'Inter', sans-serif;
     color: #1f2937;
+    padding: 60px 5px;
+}
+.Content-2 .container{
+    font-family:  'Inter', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
